@@ -1,0 +1,317 @@
+"Config": {
+"0": {
+"AntiCheat": [
+"AntiCheat/null",
+"Log/0",
+"base_part0_default": "null",
+"base_part1_default": "null",
+"base_part2_default": "null",
+"core_patch_default": "null",
+"game_patch_default": "null",
+"1375135419_224_default": "null",
+"apollo_reslist.flist": "null",
+"filelist.json": "null",
+"puffer_res.eifs": "null",
+"PufferFileList.json": "null",
+"map_arlibrary_default": "null",
+"map_desert_default": "null",
+"map_dihorotok_default": "null",
+"map_helicopter_default": "null",
+"map_hpcity_default": "null",
+"map_livik_default": "null",
+"map_notbasic_default": "null",
+"map_notbasicin_default": "null",
+"map_ruinshalf_default": "null",
+"map_savagemain_default": "null",
+"map_socialisland_default": "null",
+"map_tdfactory_default": "null",
+"map_tplan_default": "null",
+"map_vehiclewar_default": "null",
+"map_zombiepve_default": "null",
+"res_audiohigh_default": "null",
+"res_audiolow_default": "null",
+"res_basetexmd_default": "null",
+"res_minerva1021_default": "null",
+"res_minerva1022_default": "null",      
+"res_minerva1023_default": "null",
+"res_minerva1024_default": "null",
+"res_minerva1025_default": "null",
+"res_minerva1026_default": "null",
+"res_baltichd_default": "null",
+"res_vulkanshader_default": "null",
+"res_weaponhd_default": "null",
+"StatEventReportedFlag": "null",
+"GameErrorNoRecords": "null",
+}
+}
+[AntiCheat]
+ServerDown.Port=0
+ServerDown.Domain=tencent.com
+ServerDown.Domain=proximabeta.com
+ServerDown.Domain=qq.com
+ServerDown.Domain=qcloud.com
+ServerDown.Subdomain=intel.cloud.tencent.com
+ServerDown.Subdomain=clientreport.tencent.com
+ServerDown.Access=tencent
+ServerDown.MessageHit=tencent
+ServerDown.Report=tencent
+SetBanned=false
+10yearsBanned=false
+autoban=false
+Log==address,value,flags,name,freeze,freezeType,freezeFrom,freezeTo,null
+Log==address,value,flags,name,freeze,freezeType,freezeFrom,freezeTo,null
+Log==address,value,flags,name,freeze,freezeType,freezeFrom,freezeTo,null
+Log==address,value,flags,name,freeze,freezeType,freezeFrom,freezeTo,null
+AntiCheatLog=false
+[EntityAntiCheatComponent]
+bVerifyClientHitAndBullet=false
+bVerifyClientMuzzle=false
+TolerateOwnerAndBulletDist=falze
+[MoveAntiCheatComponent]
+bUseMoveAntiCheatCheck=false
+MinMoveAntiCheatCheckIntervel=false
+MaxAllowVehicleTimeSpeedConvTime=false
+MaxAllowVehicleTimeSpeedRawTime=false
+MaxBulletVictimClientPassWallTimes=false
+MaxTotalMoveCheatTimes=false
+MaxCheatTimes=false
+Ping2Client=false
+Ping2Server=false
+MaxJumpHeight=false
+ServerControlMaxThreshold=false
+ClientTimeSpeedCheck=false
+[MoveCheatAntiStrategy]
+MaxClientSpeed=false
+MaxContinuousCheatMoveTimes=false
+ClientHitPartJudgment=true
+[MoveAntiCheatBanned]
+SpeedWeapon=false
+DamageHitWeapon=false
+DamageHitGranade=false
+[STExtraGameInstance]
+AntiCheatConfig=false
+[ShovelAntiCheat]
+CheatLockTime=false
+[TelegramDreamConfig]
+FuckCopyPaster=true
+MoveAntiCheatComponent=false
+MaxServerClientDeltaCount=false
+DataSampleInterval=false
+DataSendInterval=false
+[SceneComponent]
+AntiCheatRandValue0=false
+AntiCheatRandValue1=false
+AntiCheatRandValue2=false
+AntiCheatRandValue3=false
+AntiCheatRandValue4=false
+AntiCheatRandValue5=false
+AntiCheatRandValue6=false
+[STExtraBaseCharacter]
+ReportAntiCheatInfo=false
+[STExtraVehicleBase]
+bEnableAntiCheat=false
+[STExtraPlayerController]
+PlayerAntiCheatManager=false
+bShouldReportAntiCheat=false
+CheckNeedReport(out const SACData InAntiCheatData)=false
+CheckNeedReport=false
+[PlayerAntiCheatManager]
+AntiCheatDetailData=false
+CatchReportAntiCheatDetailData=false
+OnPreReconnectOnServer=false
+OnRecoverOnServer=false
+ReportAntiCheatDetailData=false
+[PVELagCompensationComponent]
+ShootSimpleCharacterVerify=false
+SimulatedCharacterServerTime=false
+SimulatedCharacterServerTimeHighPrecision=false
+[LagCompensationComponentBase]
+bVerifyShootRange=false
+bVerifyBulletFlyTime=false
+bVerifyInParachuteShootPoint=false
+bVerifyShootPointPassWall=false
+bVerifyShootPoint=false
+VertifyClientAntiCheatResult=false
+VertifyClientDre4mC0nfigTG=true
+bUseSimpleVerifyHitParachute=false
+bUseSimpleVerifyHitVehicle=false
+bVerifyShootRange=false
+bVerifyBulletFlyTime=false
+[EntityAntiCheatComponent]
+bVerifyClientMuzzle=false
+bVerifyClientHitAndBullet=false
+BlockerAntiCheat=70.80.0000
+AntiCheatGG=36.000.Gg=236.(.)
+GH70=77.0000.992
+Blocker.0000.000.000
+Blocker.AntiCheat.798.000.000
+ValueAntiCheat==address,value,flags,name,freeze,freezeType,freezeFrom,freezeTo,5
+BlockCheat==address,value,flags,name,freeze,freezeType,freezeFrom,freezeTo,99
+ValueAddress==address,value,flags,name,freeze,freezeType,freezeFrom,freezeTo,null
+[defaults]
+base_features = sparse_super,large_file,filetype,resize_inode,dir_index,ext_attr
+default_mntopts = acl,user_xattr
+enable_periodic_fsck = 0
+blocksize = 4096
+inode_size = 256
+inode_ratio = 16384
+reserved_ratio = 1.0
+[fs_types]
+ext3 = {
+features = has_journal
+}
+ext4 = {
+features = has_journal,extent,huge_file,dir_nlink,extra_isize,uninit_bg
+inode_size = 256
+}
+ext4dev = {
+features = has_journal,extent,huge_file,flex_bg,inline_data,64bit,dir_nlink,extra_isize
+inode_size = 256
+options = test_fs=1
+}
+small = {
+blocksize = 1024
+inode_size = 128
+inode_ratio = 4096
+}
+floppy = {
+blocksize = 1024
+inode_size = 128
+inode_ratio = 8192
+}
+big = {
+inode_ratio = 32768
+}
+huge = {
+inode_ratio = 65536
+}
+news = {
+inode_ratio = 4096
+}
+largefile = {
+inode_ratio = 1048576
+blocksize = -1
+}
+largefile4 = {
+inode_ratio = 4194304
+blocksize = -1
+}
+hurd = {
+blocksize = 4096
+inode_size = 128
+}
+[AntiCheatVersion]
+AntiCheatlog=false
+Server=false
+Pakslog=false
+Pandoralog=false
+Report=false
+{
+"Common_ta_enable": 1,
+"Common_frequency": 24
+}
+{
+"project_info": {
+"project_number": "1089151145015",
+"firebase_url": "https://igame-proj.firebaseio.com",
+"project_id": "igame-proj",
+"storage_bucket": "igame-proj.appspot.com"
+},
+"client": [
+{
+"client_info": {
+"mobilesdk_app_id": "1:1089151145015:android:7079f319afe09e70",
+"android_client_info": {
+"package_name": "com.tencent.ipubgm"
+}
+},
+"oauth_client": [
+{
+"client_id": "1089151145015-q44pd9mlccmml4dpqd59cb4aomkttdo6.apps.googleusercontent.com",
+"client_type": 3
+}
+],
+"api_key": [
+{
+"current_key": "AIzaSyDq2uFr4nQrWab5bJlI47bfJUPsLyOXEhQ"
+}
+],
+"services": {
+"analytics_service": {
+"status": 1
+},
+"appinvite_service": {
+"status": 1,
+"other_platform_oauth_client": []
+},
+"ads_service": {
+"status": 2
+}
+}
+},
+{
+"client_info": {
+"mobilesdk_app_id": "1:1089151145015:android:a66d00390731a004",
+"android_client_info": {
+"package_name": "com.tencent.ig"
+}
+},
+"oauth_client": [
+{
+"client_id": "1089151145015-q44pd9mlccmml4dpqd59cb4aomkttdo6.apps.googleusercontent.com",
+"client_type": 3
+}
+],
+"api_key": [
+{
+"current_key": "AIzaSyDq2uFr4nQrWab5bJlI47bfJUPsLyOXEhQ"
+}
+],
+"services": {
+"analytics_service": {
+"status": 1
+},
+"appinvite_service": {
+"status": 1,
+"other_platform_oauth_client": []
+},
+"ads_service": {
+"status": 2
+}
+}
+}
+],
+"configuration_version": "1"
+}
+[WeaponDamageRecord]
+LimbsShootCount=false
+HeadShootCount=false
+TotalDamage=false
+FireCount=false
+WeaponId=false
+HitDistanceArray=false
+UniqueHitCount=false
+FootShootCount=false
+HandShootCount=false
+BodyShootCount=false
+[UAEPlayerState.PlayerState.Info.Actor.Object]
+WeaponDamageRecord=false
+WeaponDamageRecordList=false
+[WeaponReport]
+TotalDamage=false
+KillCount=false
+HitCount=false
+WeaponId=false
+FireCount=false
+[DamageCauserRecordData]
+Damage=false
+Time=false
+DamageType=false
+bIsHeadshot=false
+WeaponId=false
+[SecuryInfoComponent]
+ReportAttackFlow=false
+ReportAimFlow=false
+ReportHitFlow=false
+ReportDamageFlow=false
+ReportHeadshotFlow=false
